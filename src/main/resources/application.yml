@@ -5,6 +5,9 @@ server:
 spring:
    application:
       name: cloud-user
+   data:
+      mongodb:
+         uri: mongodb://localhost:27017/test
    http:
       encoding.charset: UTF-8
       encoding.enable: true
